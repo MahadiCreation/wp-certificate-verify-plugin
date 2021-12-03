@@ -1,0 +1,19 @@
+{
+    "name": "mahadicreation/certificate-verify",
+    "description": "This plugin develop for wordpress online course certificate verification system",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Mahadi Hasan",
+            "email": "Mahadicreation@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mahadicreation\\CertificateVerify\\": "includes/"
+        },
+        "files": ["includes/function.php"]
+    },
+    "minimum-stability": "dev"
+}

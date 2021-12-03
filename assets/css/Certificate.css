@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'apertureregular';
+    src: url('../fonts/aperture2.0-webfont-webfont.woff2') format('woff2'),
+    url('../fonts/aperture2.0-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media only screen and (max-width: 600px){
+    .certificate-details{
+        bottom: 15px !important;
+        left: 30px !important;
+    }
+    .certificate-details-heading h5{
+        font-size: 7px !important;
+    }
+    .certificate-details-name h3{
+        font-size: 23px !important;
+        margin-left: 0 !important;
+    }
+    .certificate-details-name h3 p{
+        font-size: 12px;
+    }
+    .certificate-details-name p{
+        font-size: 6px;
+        padding-right: 24px !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+    #qr-code{
+        width: 25px;
+    }
+    .btnSave{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 425px){
+    /*Small smartphones [325px -> 425px]*/
+}
+.default-certificate-image{
+    position: relative;
+}
+.certificate-details{
+    position: absolute;
+    bottom: 140px;
+    left: 100px;
+}
+.certificate-details-heading h5{
+    font-family: apertureregular;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.certificate-details-name h3{
+    margin-left: 15px;
+    font-size: 47px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: open_sansregular;
+    font-weight: 600;
+}
+.certificate-details-name h3 p{
+    margin: 0;
+}
+.certificate-details-name p{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-family: open_sansregular;
+    padding-right: 90px;
+}
+.certificate-details-name{}
